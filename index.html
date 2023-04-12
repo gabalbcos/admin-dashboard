@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <script src="https://kit.fontawesome.com/5306e3a0a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Orbitron:wght@400;500&family=Pacifico&family=Poller+One&family=Press+Start+2P&family=Prompt&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container-1">
         <div class="header">
             <div class="header-1">
                 <div class="header-1a">
-                    <input type="text" placeholder="Search..">
-
+                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i><input type="text" class="header-1a-search" name='search' placeholder="Search.."></label>
                 </div>
                 <div class="header-1b">
-                    <i>a</i>
-                    <img src="" alt="">
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-sharp fa-regular fa-face-smile"></i>
                    <span>Name Surname</span>  
                 </div>
             </div>
             <div class="header-2">
                 <div class="header-2a">
-                    <img class="header-2a-img" src="" alt="">
+                    <i class="fa-sharp fa-regular fa-face-smile"></i>
                     <p class="header-2a-greet">Hi, there</p>
                     <p class="header-2a-name">Name Surname</p>
                 </div>
@@ -72,28 +75,99 @@
                 </div>
              </div>
              <div class="main-2">
-                <div class="main-2-cards"><p>Announcements</p></div>
-                <div class="main-2-cards"><p>Trending</p></div>
+                <div class="main-2-cards">
+                    <p>Announcements</p>
+                    <div class="main-2-cards-items">
+                        <p><span class="mains-2-cards-title">Site Maintenance</span><br>Random text blablalbalbal</p>
+                        <p><span class="mains-2-cards-title">Community Share Day</span><br>Random text blablalbalbal</p>
+                        <p><span class="mains-2-cards-title">Updated Privacy Policy</span><br>Random text blablalbalbal</p>
+                    </div>
+                </div>  
+                <div class="main-2-cards"> 
+                    <p>Trending</p>
+                    <div class="main-2-cards-items">
+                        <div class="main-2-cards-items-element">
+                            <img src="" alt=""><span>Name Surname</span>  
+                        </div> 
+                        <div class="main-2-cards-items-element">
+                            <img src="" alt=""><span>Name Surname</span>  
+                        </div> 
+                        <div class="main-2-cards-items-element">
+                            <img src="" alt=""><span>Name Surname</span>  
+                        </div> 
+                        <div class="main-2-cards-items-element">
+                            <img src="" alt=""><span>Name Surname</span>  
+                        </div>         
+                    </div>
+                </div>
              </div>
         </div>
         <div class="sidebar">
-            <div class="sidebar-logo"><i>O<span>Dashboard</span></i></div>
-            <div class="sidebar-list-links"><ul>
-                <li><i>O</i><a href="">Home</a></li>
-                <li><i>O</i><a href="">Profile</a></li>
-                <li><i>O</i><a href="">Messages</a></li>
-                <li><i>O</i><a href="">History</a></li>
-                <li><i>O</i><a href="">Tasks</a></li>
-                <li><i>O</i><a href="">Communities</a></li>
-            </ul>
+            <ul>
+            <div class="sidebar-logo">
+                    <li>
+                        <a href="">
+                            <span class='icon'><i class="fa-solid fa-otter"></i></span><!--
+                            --><span class='item sidebar-title'>Dashboard</span></a>
+                        </li>
+                
+            </div>
+            <div class="sidebar-list-links">
+                <li>
+                    <a href="">
+                        <span class='icon'><i class="fa-solid fa-house"></i></span><!--
+                        --><span class='item'>Home</span></a
+                        >
+                    </li>
+                <li>
+                    <a href="">
+                        <span class='icon'><i class="fa-solid fa-user"></i></span><!--
+                        --><span class='item'>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class='icon'><i class="fa-solid fa-envelope"></i></span><!--
+                        --><span class='item'>Messages</span
+                            ></a
+                            ></li>
+                <li>
+                    <a href="">
+                        <span class='icon'><i class="fa-solid fa-clock-rotate-left"></i></span><!--
+                        --><span class='item'>History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class='icon'><i class="fa-solid fa-list-check"></i></span><!--
+                        --><span class='item'>Tasks</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class='icon'><i class="fa-solid fa-people-group"></i></span><!--
+                        --><span class='item'>Communities</span>
+                    </a>
+                </li>
           </div>
             <div class="sidebar-list-tools">
-                <ul>
-                    <li><i>O</i><a href="">Settings</a></li>
-                    <li><i>O</i><a href="">Support</a></li>
-                    <li><i>O</i><a href="">Privacy</a></li>
-                </ul>
+                <li><a href="">
+                            <span class='icon'><i class="fa-solid fa-wrench"></i></span><!--
+                            --><span class='item'>Settings</span>
+                        </a>
+                    </li>
+                    <li><a href="">
+                            <span class='icon'><i class="fa-solid fa-headset"></i></span><!--
+                            --><span class='item'>Support</span>
+                        </a>
+                    </li>
+                    <li><a href="">
+                            <span class='icon'><i class="fa-solid fa-user-shield"></i></span><!--
+                            --><span class='item'>Privacy</span>
+                        </a>
+                    </li>
             </div> 
+             </ul>
         </div>
 <script src="./javascript/script.js"></script>  
 </body>
