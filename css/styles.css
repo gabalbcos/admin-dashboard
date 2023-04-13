@@ -57,7 +57,7 @@ body, html {
     flex-direction: column;
     justify-content: space-around;
     padding: 1rem 2rem;
-    gap: 1rem;
+    gap: .3rem;
     z-index: 2;
     box-shadow: 0 7px 4px 0px var(--shadow);
 }
@@ -118,8 +118,8 @@ body, html {
 
 .header-2a-img{
     align-self: center;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 .header-2a-greet{
