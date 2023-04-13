@@ -31,19 +31,19 @@ body, html {
 /*profile pic*/
 .profile-picture{
     border-radius: 50%;
-    background-image: url('https://github.com/gabalbcos/admin-dashboard/blob/main/img/prof.jpg');
+    background-image: url('../img/prof.jpg');
     background-size: cover;
 }
 
 .profile-picture2{
     border-radius: 50%;
-    background-image: url('https://github.com/gabalbcos/admin-dashboard/blob/main/img/donkey.png');
+    background-image: url('../img/donkey.png');
     background-size: cover;
 }
 
 .profile-picture3{
     border-radius: 50%;
-    background-image: url('https://github.com/gabalbcos/admin-dashboard/blob/main/img/shrek.png');
+    background-image: url('../img/shrek.png');
     background-size: cover;
 }
 
