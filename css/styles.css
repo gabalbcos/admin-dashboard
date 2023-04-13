@@ -295,14 +295,14 @@ body, html {
     box-shadow: 2px 3px 13px 0px var(--shadow);
 }
 
-.main-2a p{
+.main-2-cards-info{
     border-bottom: 1px solid var(--dark-grey);
     font-size: .8rem;
 }
 
-.main-2-cards p:last-of-type{
+.last{
     border-bottom: none;
-    padding-bottom: 0.4rem;
+    padding-bottom: 0.6rem;
 }
 
 .main-2-cards-info{
